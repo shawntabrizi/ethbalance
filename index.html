@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="./web3.min.js"></script>
+    <script type="text/javascript">
+        var Web3 = require('web3');
+        var web3 = new Web3();
+        web3.setProvider(new web3.providers.HttpProvider("https://mainnet.infura.io/<APIKEY>"));
+        function getBalance() {
+            var address = document.getElementById("address").value
+            try {
+                var wei = web3.eth.getBalance(address)
+                var balance = web3.fromWei(wei, 'ether');
+                document.getElementById("output").innerHTML = balance + " ETH";
+            }
+            catch (err) {
+                document.getElementById("output").innerHTML = err.message;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>ETH Balance Fetcher</h1>
+    <p>Enter your Ethereum Address:</p>
+    <input type="text" size="50" id="address" />
+    <button type="button" onClick="getBalance();">Get Balance</button>
+    <br />
+    <br />
+    <div id="output"></div>
+</body>
+</html>
