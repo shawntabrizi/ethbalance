@@ -4,7 +4,7 @@
 
 Read my Blog Post here: http://shawntabrizi.com/crypto/ethereum-web3-js-hello-world-get-eth-balance-ethereum-address/
 
-Read my correction to my original sample here: http://shawntabrizi.com/crypto/ethereum/correcting-ethereum-web3-js-hello-world/
+Read my correction to my original sample here: http://shawntabrizi.com/crypto/correcting-ethereum-web3-js-hello-world/
 
 Try it out here: http://shawntabrizi.com/ethbalance/
 
