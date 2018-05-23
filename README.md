@@ -11,3 +11,9 @@ Try it out here: http://shawntabrizi.com/ethbalance/
 Using Web3.js: https://github.com/ethereum/web3.js
 
 Using Infura.io: https://infura.io/
+
+
+## Check out other simple Web3.js samples
+https://github.com/shawntabrizi/ERC-20-Token-Balance
+
+https://github.com/shawntabrizi/ETH-Balance-Graph
